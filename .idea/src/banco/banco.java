@@ -66,7 +66,7 @@ st.executeUpdate(consulta);
 
 break;
 case 3: // Consultar movimientos
-   System.out.print("Introduzca el Número de Cuenta : ");
+   System.out.print("Introduzca el Numero de Cuenta : ");
    cuenta = scanner.next();
 consulta = "select num_cuenta, fecha, importe from movimientos"
        + " where num_cuenta = ";
